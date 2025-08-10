@@ -1,0 +1,86 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #fcfcfc;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #fffafa !important;
+  border-bottom: 3px solid #6a0dad;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+/* Content Sections */
+.content-section {
+  border: 2px solid #6a0dad;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 30px auto;
+  background-color: #fffafa;
+}
+
+.section-divider {
+  height: 2px;
+  background-color: #6a0dad;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* Buttons */
+.btn {
+  margin: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer stays dark always */
+.footer {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+    border-top: 3px solid #6a0dad;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #000000;
+    color: #212529;
+}
+
+.light-mode .content-section {
+    background-color: #737373;
+    color: #212529;
+    border-color: #6a0dad;
+}
+
+.light-mode .navbar {
+    background-color: #6a0dad !important;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+} }
+}
+
